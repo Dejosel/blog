@@ -1,0 +1,443 @@
+<html>
+<!-- Head tag -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon/favicon.ico">
+    <title>Blog Template for Bootstrap</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link rel="stylesheet" href="/css/ie10-viewport-bug-workaround.css">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="/css/blog.css">
+    <link rel="stylesheet" href="/css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link rel="stylesheet" href="/css/zoom.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!-- Menu -->
+    <div class="blog-masthead">
+	<nav class="blog-nav navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">
+					<img alt="Dejosel" src="/images/logo.png">
+				</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+										
+					<li><a class="blog-nav-item" href="/">Home</a></li>
+										
+					<li><a class="blog-nav-item" href="/archives">Archives</a></li>
+						
+					<ul class="visible-xs nav">
+						<li>
+							<a class="blog-nav-item" href="#">Notifications</a>
+						</li>
+						<li>
+							<a class="blog-nav-item" data-action="growl">Growl</a>
+						</li>
+						<li>
+							<a class="blog-nav-item" href="#">Logout</a>
+						</li>
+					</ul>				
+				</ul>
+				<ul class="hidden-xs nav navbar-nav navbar-right">
+					<form id="custom-search-form" class="navbar-form navbar-left">
+						<div class="input-append span12">
+							<div class="form-group">
+								<input type="text" class="form-control search-query mac-style" placeholder="Search">
+							</div>                    
+						</div>
+					</form>
+					<li><a data-placement="bottom" title="Mensajes" href="#messages" data-toggle="modal"><span class="h blog-nav-item icon icon-mail"></span><span class="badge badge-message">10</span></a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="h blog-nav-item icon icon-bell"></span></a>
+						<ul class="dropdown-menu dropdown-activities">
+							<li class="menu-header">Recent Notifications</li>
+							<li class="menu-body"><ul class="menu activities-list">
+								<li class="unread">
+									<div class="clearfix">
+										<div class="activity-body"><i class="fa fa-tasks fa-fw bg-primary"></i>
+											<a href="#">Josel</a> <b>comment your post</b>.                        <span class="activity-time text-muted small">
+												<span class="small">10:06 PM&nbsp;-&nbsp;4 minutes ago</span>
+											</span>
+										</div>
+									</div>
+								</li>
+								<li class="divider"></li>
+								<li class="unread">
+									<div class="clearfix">
+										<div class="activity-body"><i class="fa fa-tasks fa-fw bg-primary"></i>
+											<a href="#">Josel</a> <b>following you</b> in.                        <span class="activity-time text-muted small">
+												<span class="small">08:02 AM&nbsp;-&nbsp;1 day ago</span>
+											</span>
+										</div>
+									</div>
+								</li>
+								<li class="divider"></li>
+								<li class="unread">
+									<div class="clearfix">
+										<div class="activity-body"><i class="fa fa-tasks fa-fw bg-primary"></i>
+											<a href="#">Dejosel</a> <b>comment your post.</b>.                        <span class="activity-time text-muted small">
+												<span class="small">07:45 AM&nbsp;-&nbsp;1 day ago</span>
+											</span>
+										</div>
+									</div>
+								</li>
+								<li class="divider"></li>
+								<li class="unread">
+									<div class="clearfix">
+										<div class="activity-body"><i class="fa fa-tasks fa-fw bg-primary"></i>
+											<a href="#">Josel</a> <b>comment your post</b>.                        <span class="activity-time text-muted small">
+												<span class="small">07:43 AM&nbsp;-&nbsp;1 day ago</span>
+											</span>
+										</div>
+									</div>
+								</li>
+								<li class="divider"></li>
+								<li class="unread">
+									<div class="clearfix">
+										<div class="activity-body"><i class="fa fa-tasks fa-fw bg-primary"></i>
+											<a href="#">Josel</a> <b>following you</b>.                        <span class="activity-time text-muted small">
+												<span class="small">11:34 AM&nbsp;-&nbsp;6 days ago</span>
+											</span>
+										</div>
+									</div>
+								</li>
+								<li class="divider"></li>
+								<li class="unread">
+									<div class="clearfix">
+										<div class="activity-body"><i class="fa fa-tasks fa-fw bg-primary"></i>
+											<a href="#">Josel</a> <b>following you</b> in.                        <span class="activity-time text-muted small">
+												<span class="small">11:04 AM&nbsp;-&nbsp;2 weeks ago</span>
+											</span>
+										</div>
+									</div>
+								</li>
+								<li class="divider"></li>
+							</ul>
+						</li>
+						<li class="menu-footer">
+							<a class="text-center" href="#">All notifications</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a style="padding-left: 45px;" href="#" class="avatar dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> 
+						<img src="http://www.gravatar.com/avatar/319e0a50dedd8c8d0d6185f48950a9c6" class="img-circle">
+					</a>						
+					<ul style="margin-top: 20px;" class="dropdown-menu">
+						<li><a href="#"><span class="icon icon-user"></span> Profile</a></li>
+						<li><a href="#"><span class="icon icon-newspaper"></span> Posts</a></li>
+						<li><a href="#"><span class="icon icon-lifebuoy"></span> Help</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a href="#"><span class="icon icon-logout"></span> Logout</a></li>
+					</ul>
+				</li>					
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</div><!-- /.container-fluid -->
+</nav>
+
+</div>
+
+<div id="messages" class="modal fade">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title"><strong>Messages</strong></h4>
+			</div>
+			<div class="modal-body abv js-modalBody">
+				<div class="att">
+					<div class="bkt cj ca js-msgGroup d-none">
+						<a href="#" class="b os">
+							<div class="oq">
+								<img class="rl bkp ru uk abc" src="/images/avatar-fat.jpg">
+								<div class="or">
+									<strong>Jacob Thornton</strong> and <strong>1 other</strong>
+									<div class="bld">
+										Aenean eu leo quam. Pellentesque ornare sem lacinia quam …
+									</div>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="b os">
+							<div class="oq">
+								<img class="rl bkp ru uk abc" src="/images/avatar-mdo.png">
+								<div class="or">
+									<strong>Mark Otto</strong> and <strong>3 others</strong>
+									<div class="bld">
+										Brunch sustainable placeat vegan bicycle rights yeah…
+									</div>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="b os">
+							<div class="oq">
+								<img class="rl bkp ru uk abc" src="/images/avatar-dhg.png">
+								<div class="or">
+									<strong>Dave Gamache</strong>
+									<div class="bld">
+										Brunch sustainable placeat vegan bicycle rights yeah…
+									</div>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="b os">
+							<div class="oq">
+								<img class="rl bkp ru uk abc" src="/images/avatar-fat.jpg">
+								<div class="or">
+									<strong>Jacob Thornton</strong> and <strong>1 other</strong>
+									<div class="bld">
+										Aenean eu leo quam. Pellentesque ornare sem lacinia quam …
+									</div>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="b os">
+							<div class="oq">
+								<img class="rl bkp ru uk abc" src="/images/avatar-mdo.png">
+								<div class="or">
+									<strong>Mark Otto</strong> and <strong>3 others</strong>
+									<div class="bld">
+										Brunch sustainable placeat vegan bicycle rights yeah…
+									</div>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="b os">
+							<div class="oq">
+								<img class="rl bkp ru uk abc" src="/images/avatar-dhg.png">
+								<div class="or">
+									<strong>Dave Gamache</strong>
+									<div class="bld">
+										Brunch sustainable placeat vegan bicycle rights yeah…
+									</div>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="b os">
+							<div class="oq">
+								<img class="rl bkp ru uk abc" src="/images/avatar-fat.jpg">
+								<div class="or">
+									<strong>Jacob Thornton</strong> and <strong>1 other</strong>
+									<div class="bld">
+										Aenean eu leo quam. Pellentesque ornare sem lacinia quam …
+									</div>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="b os">
+							<div class="oq">
+								<img class="rl bkp ru uk abc" src="/images/avatar-mdo.png">
+								<div class="or">
+									<strong>Mark Otto</strong> and <strong>3 others</strong>
+									<div class="bld">
+										Brunch sustainable placeat vegan bicycle rights yeah…
+									</div>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="b os">
+							<div class="oq">
+								<img class="rl bkp ru uk abc" src="/images/avatar-dhg.png">
+								<div class="or">
+									<strong>Dave Gamache</strong>
+									<div class="bld">
+										Brunch sustainable placeat vegan bicycle rights yeah…
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<a href="#" class="os">
+					<p class="text-center"><strong>All messages</strong></p>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+    <div class="acy adh container">
+        
+        <div class="row">
+            <div class="col-sm-3">
+                    <div class="thumbnail">
+      <div class="na" style="background-image: url(https://bootstrap-themes.github.io/application/assets/img/iceland.jpg);"></div>
+      <div class="caption">
+        <a>
+          <img class="blg img-circle" src="http://www.gravatar.com/avatar/319e0a50dedd8c8d0d6185f48950a9c6">
+        </a>
+        <h3 class="text-center">Dejosel</h3>
+        <p class="text-center">I wish i was a little bit taller, wish i was a baller, wish i had a girl… also.</p>
+        <ul class="list-inline blh">
+          <li class="bli">
+            <a href="#userModal" class="bjx" data-toggle="modal">
+              Friends
+              <h6 class="text-center aal"><strong>12M</strong></h6>
+            </a>
+          </li>
+
+          <li class="bli">
+            <a href="#userModal" class="bjx" data-toggle="modal">
+              Following
+              <h6 class="text-center aal"><strong>1</strong></h6>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="sidebar-module">
+      <h6 class="abd">About <small>· <a href="#">Edit</a></small></h6>    
+      <ul class="dc atd">
+        <li><span class="abc asz icon icon-calendar"></span>Went to <a href="#">Oh, Canada</a></li>
+        <li><span class="abc asz icon icon-users"></span>Became friends with <a href="#">Obama</a></li>
+        <li><span class="abc asz icon icon-github"></span>Worked at <a href="#">Github</a></li>
+        <li><span class="abc asz icon icon-home"></span>Lives in <a href="#">Bucaramanga, CO</a></li>
+        <li><span class="abc asz icon icon-location"></span>From <a href="#">Bogotá, CO</a></li>
+      </ul>
+    </div>
+    <div class="sidebar-module">
+      <h6 class="abd">Photos <small>· <a href="#">Edit</a></small></h6>
+      <div class="gal">  
+        <img data-width="640" data-height="640" data-action="zoom" src="/images/instagram_5.jpg" class="" >
+        <img data-width="640" data-height="640" data-action="zoom" src="/images/instagram_6.jpg"  class="">
+        <img data-width="640" data-height="640" data-action="zoom" src="/images/instagram_7.jpg" >
+        <img data-width="640" data-height="640" data-action="zoom" src="/images/instagram_8.jpg" >
+        <img data-width="640" data-height="640" data-action="zoom" src="/images/instagram_9.jpg" >
+        <img data-width="640" data-height="640" data-action="zoom" src="/images/instagram_10.jpg" >   
+      </div>
+    </div>
+
+
+  
+            </div>
+            <!-- Main Content -->
+            <div class="col-sm-6 blog-main">
+                
+<div class="blog-post">
+    <!-- Title -->
+    <h2 class="blog-post-title-archive">
+        <a href="/2017/12/28/get-free-internet-marketing/">
+            Get Free Internet Marketing  
+        </a>
+    </h2>
+    <!-- Date and Author -->
+    <p class="blog-post-meta">
+        2017-12-28
+        
+            by Dejosel
+        
+    </p>
+</div>
+
+
+            </div>
+            <!-- Sidebar -->
+            <div class="col-sm-3 blog-sidebar">
+                <div class="alert alert-warning alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <strong>Warning!</strong> Better check yourself, you're not looking too good.
+</div>
+<div class="sidebar-module">
+    <h4>Sponsored</h4>    
+    <img data-action="zoom" src="/images/instagram_2.jpg" class="img-responsive"></br>
+    <p><strong>It might be time to visit Iceland.</strong> Iceland is so chill, and everything looks cool here. Also, we heard the people are pretty nice. What are you waiting for?</p> 
+    <div class="btn-group">
+      <button class="btn btn-primary btn-sm btn-outline" type="button"  aria-haspopup="true" aria-expanded="false">
+        Buy a ticket 
+    </button>
+</div>
+</div>
+<div class="hidden-xs sidebar-module">
+    <div class="mu abk ro sp">
+        <div class="mv">
+            <h6 class="abd">Likes <small>· <a href="#">View All</a></small></h6>
+            <ul class="bkt bku">
+              <li class="oq">
+                <a class="blq" href="#">
+                    <img class="img-circle abc bkp" src="/images/avatar-fat.jpg">
+                </a>
+                <ul class="dc">
+                  <li><strong>Jacob Thornton</strong></li> 
+                  <li>@fat</li>
+                  <li><div class="btn-group">
+                    <button class="btn btn-primary btn-sm btn-outline">
+                      <span class="icon icon-user-add"></span> Follow</button>
+                  </div></li>
+              </ul>
+          </li>
+          <li class="oq">
+            <a class="blq" href="#">
+              <img class="img-circle abc bkp" src="http://www.gravatar.com/avatar/319e0a50dedd8c8d0d6185f48950a9c6">
+          </a>
+          <ul class="dc">
+              <li><strong>Dejosel</strong></li>
+              <li>@Dejosel</li> 
+              <li><div class="btn-group">
+                <button class="btn btn-primary btn-sm btn-outline">
+                  <span class="icon icon-user-add"></span> Follow</button>
+              </div></li>
+          </ul>
+      </li>
+  </ul>
+</div>
+<div class="nb">
+  Dave really likes these nerds, no one knows why though.
+</div>
+</div>
+</div>
+<div class="sidebar-module blj">
+  © 2018 Dejosel
+  <a href="#">About</a>
+  <a href="#">Help</a>
+  <a href="#">Terms</a>
+  <a href="#">Privacy</a>
+  <a href="#">Cookies</a>
+  <a href="#">Ads </a>
+  <a href="#">Info</a>
+  <a href="#">Brand</a>
+  <a href="#">Blog</a>
+  <a href="#">Status</a>
+  <a href="#">Apps</a>
+  <a href="#">Jobs</a>
+  <a href="#">Advertise</a>
+</div>
+            </div>
+        </div>
+    </div>
+   <!-- After footer scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="/bootstrap/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="/js/ie10-viewport-bug-workaround.js"></script>
+<script src="/js/zoom.js"></script>
+<script src="/js/transition.js"></script>
+
+</body>
+</html>
